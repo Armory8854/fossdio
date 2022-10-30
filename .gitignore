@@ -1,0 +1,6 @@
+# Ignore autosave files from emacs
+*~
+*\#
+
+# Ignore venv
+venv/
