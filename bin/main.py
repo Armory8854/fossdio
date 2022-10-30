@@ -67,8 +67,8 @@ for i in dir_list:
         # Pydub Section
         ## Save the song as a var
         song = AudioSegment.from_mp3(mp3_file_base)
-        ## Save the file as an ogg
-        song.export(music_dir + new_filename + ".ogg", bitrate=mp3_bitrate + "k")
-        print(music_dir + new_filename + ".ogg Converted!")
+        ## Save the file as an opus file
+        song.export(music_dir + new_filename + ".opus", bitrate=mp3_bitrate + "k")
+        print(music_dir + new_filename + ".opus Converted!")
         # add 1 to the counter
         counter = counter + 1
