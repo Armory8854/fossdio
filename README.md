@@ -27,4 +27,15 @@ Finally, change the directory that hosts your mp3 files in bin/main.py
 ```
 ...
 music_dir = "/path/to/an/album/"
+...
+```
+
+Now the program can be run as follows
+**If python command goes to python3 (most non debian distros)**
+```
+python bin/main.py
+```
+**If you use python3 (probably debian 10 or lower double check this)**
+```
+python3 bin/main.py
 ```
